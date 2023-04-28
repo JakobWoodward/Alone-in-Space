@@ -105,7 +105,7 @@ document.getElementById("button1").addEventListener("click", eatFood);
 // BUTTON 2 //
 function growFood() {
     if (energy >= 5) {
-        food += 10;
+        food += 1;
         energy -= 5;
         foodText.innerText = food;
         energyText.innerText = energy;

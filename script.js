@@ -205,7 +205,7 @@ function fight() {
         }, 3 * 400);
 
 
-        text.innerText = "You fighted with BAD aliens and steal 300 energy. But you took some damage."
+        text.innerText = "You fighted with BAD aliens and steal 100 energy. But you took some damage."
         setTimeout(function() {
             text.innerText = "You are in your spaceship. Your friends are gone. But you couldn't go, because meteorite hit your spaceship. You lost a signal and you flew 500 kilometers beyond."
         }, 3 * 400)

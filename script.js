@@ -269,6 +269,10 @@ function trade() {
         }, 3 * 400);
 
         text.innerText = "You traded 10 foods for 150 energy with GOOD aliens."
+        setTimeout(function() {
+            text.innerText = "You are in your spaceship. Your friends are gone. But you couldn't go, because meteorite hit your spaceship. You lost a signal and you flew 500 kilometers beyond."
+        }, 2000)
+        
     } else {
         text.innerText = "You need to 10 foods for trade with good aliens"
         setTimeout(function() {
